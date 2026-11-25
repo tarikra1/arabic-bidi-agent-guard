@@ -1,5 +1,7 @@
 # arabic-bidi-agent-guard
 
+[![CI](https://github.com/tarikra1/arabic-bidi-agent-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/tarikra1/arabic-bidi-agent-guard/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/badge/release-v1.1.0-0EA5E9.svg)](CHANGELOG.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB.svg)](pyproject.toml)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-success.svg)](pyproject.toml)

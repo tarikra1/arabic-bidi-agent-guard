@@ -3,4 +3,4 @@
 from .linter import Violation, lint_markdown, strip_hidden_bidi_controls
 
 __all__ = ["Violation", "lint_markdown", "strip_hidden_bidi_controls"]
-__version__ = "1.0.0"
+__version__ = "1.1.0"

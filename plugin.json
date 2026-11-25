@@ -1,0 +1,12 @@
+{
+  "name": "arabic-bidi-agent-guard",
+  "displayName": "Arabic BiDi Agent Guard",
+  "version": "1.0.0",
+  "description": "Zero-dependency linter, sanitizer, and AGENTS.md / CLAUDE.md rule preventing RTL/LTR bidirectional text scrambling in AI chat and Markdown renderers.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "اشرح لي بنية هذا المشروع بالعربية بدون تداخل مع المصطلحات الإنجليزية",
+    "اكتب توثيقاً تقنياً منظماً بالعربية مع عزل الأكواد والمسارات",
+    "راجع هذا الملف وتأكد من خلوه من مشاكل اتجاه النص"
+  ]
+}

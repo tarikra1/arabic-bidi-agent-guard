@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arabic-bidi-agent-guard"
+version = "1.0.0"
+description = "Zero-dependency Python linter, Unicode control sanitizer, and AGENTS.md / CLAUDE.md ruleset preventing Arabic RTL/LTR Markdown scrambling in AI agents."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Tarik", email = "tarikra1@users.noreply.github.com" }
+]
+keywords = ["arabic", "rtl", "bidi", "markdown", "linter", "ai-agents", "claude-code", "i18n"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: Arabic",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3",
+  "Topic :: Text Processing :: Linguistic",
+  "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/tarikra1/arabic-bidi-agent-guard"
+Repository = "https://github.com/tarikra1/arabic-bidi-agent-guard"
+Issues = "https://github.com/tarikra1/arabic-bidi-agent-guard/issues"
+
+[project.scripts]
+bidi-guard = "arabic_bidi_guard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
